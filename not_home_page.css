@@ -1,0 +1,44 @@
+p {
+    padding-bottom: 3%;
+}
+
+.table-container {
+    overflow: auto;
+}
+
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    border-radius: 20px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #c5c5c5;
+    border-radius: 20px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #b9b9b9;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 1.5em;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 2% 0;
+}
+
+td {
+    text-align: center;
+}
+
+p,
+div>a {
+    padding-left: 1.5%;
+} 

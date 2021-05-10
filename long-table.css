@@ -1,0 +1,50 @@
+.container {
+  width: 80%;
+}
+
+.table-container {
+  max-height: 50vh;
+  overflow: auto;
+  border-bottom: 1px solid #808080;
+}
+h3{
+  text-align: center;
+}
+.table-container2 {
+  max-height: 50vh;
+  width:15em;
+  overflow: auto;
+  border-bottom: 1px solid #808080;
+}
+
+body > div > div:last-child {
+  margin-top: 2%;
+}
+
+table {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1125px) {
+  .container {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .container {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  table {
+    width: 130%;
+  }
+}
